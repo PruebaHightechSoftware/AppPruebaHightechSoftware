@@ -32,6 +32,10 @@ public class DatosPersonaActivity extends AppCompatActivity {
         Celular = findViewById(R.id.txtCelular);
         Direccion = findViewById(R.id.txtDireccion);
 
+        Consumo api = new Consumo();
+
+        api.newData();
+
     }
 
     public void GuardarDatos(View view) {
