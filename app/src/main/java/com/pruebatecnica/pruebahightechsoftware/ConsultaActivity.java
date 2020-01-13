@@ -17,6 +17,11 @@ public class ConsultaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_consulta);
 
         listV_personas = findViewById(R.id.lv_datosPersonas);
+
+        Consumo api = new Consumo();
+
+        api.getData();
+
     }
 
     public void Volver(View view) {
