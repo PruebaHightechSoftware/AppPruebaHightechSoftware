@@ -95,7 +95,7 @@ public class Consumo {
         return result.toString();
     }
 
-    public void newData(){
+    public void newData(String NumeroDocumento,String PrimerNombre,String SegundoNombre,String PrimerApellido,String SegundoApellido,String Celular,String Direccion){
         String result = null;
         String sql = "https://apihightechsoftware.azurewebsites.net/api/Personas";
 
@@ -110,13 +110,13 @@ public class Consumo {
             conn = (HttpURLConnection) url.openConnection();
 
             JSONObject parametrosPost = new JSONObject();
-            parametrosPost.put("NumeroDocumento","1025");
-            parametrosPost.put("PrimerNombre","Luz");
-            parametrosPost.put("SegundoNombre","");
-            parametrosPost.put("PrimerApellido","Corredor");
-            parametrosPost.put("SegundoApellido","");
-            parametrosPost.put("Celular","3142465880");
-            parametrosPost.put("Direccion","Cll 70");
+            parametrosPost.put("NumeroDocumento",NumeroDocumento);
+            parametrosPost.put("PrimerNombre",PrimerNombre);
+            parametrosPost.put("SegundoNombre",SegundoNombre);
+            parametrosPost.put("PrimerApellido",PrimerApellido);
+            parametrosPost.put("SegundoApellido",SegundoApellido);
+            parametrosPost.put("Celular",Celular);
+            parametrosPost.put("Direccion",Direccion);
 
             conn.setRequestMethod("POST");
 

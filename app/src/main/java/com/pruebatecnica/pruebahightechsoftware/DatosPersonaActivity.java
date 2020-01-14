@@ -32,10 +32,6 @@ public class DatosPersonaActivity extends AppCompatActivity {
         Celular = findViewById(R.id.txtCelular);
         Direccion = findViewById(R.id.txtDireccion);
 
-        Consumo api = new Consumo();
-
-        api.newData();
-
     }
 
     public void GuardarDatos(View view) {
@@ -68,6 +64,11 @@ public class DatosPersonaActivity extends AppCompatActivity {
             Direccion.setError("Campo requerido");
             return;
         }
+
+
+        Consumo api = new Consumo();
+
+        api.newData(Ndocumento,Pnombre,Snombre,Papellido,Sapellido,celular,direccion);
 
         Toast.makeText(this,"Datos registrados",Toast.LENGTH_LONG).show();
 
