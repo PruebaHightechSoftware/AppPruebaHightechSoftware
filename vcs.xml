@@ -10,6 +10,10 @@
           <option name="url" value="https://github.com/PruebaHightechSoftware/AppPruebaHightechSoftware.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git-codecommit.us-east-1.amazonaws.com" />
+          <option name="userName" value="cristian.ruiz@Alphacredit.co" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\cristian.ruiz\Pictures\Nueva carpeta" />
