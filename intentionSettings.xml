@@ -2,5 +2,6 @@
   <component name="IntentionManagerSettings">
     <ignoreAction name="Java/Imports/Add On Demand Static Import" />
     <ignoreAction name="Kotlin/Introduce local variable" />
+    <ignoreAction name="XML/Remove tag" />
   </component>
 </application>
