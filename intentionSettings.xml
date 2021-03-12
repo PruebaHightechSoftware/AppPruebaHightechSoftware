@@ -3,5 +3,6 @@
     <ignoreAction name="Java/Imports/Add On Demand Static Import" />
     <ignoreAction name="Kotlin/Introduce local variable" />
     <ignoreAction name="XML/Remove tag" />
+    <ignoreAction name="Kotlin/Convert to with" />
   </component>
 </application>
