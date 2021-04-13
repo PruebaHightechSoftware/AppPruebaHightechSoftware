@@ -4,5 +4,6 @@
     <ignoreAction name="Kotlin/Introduce local variable" />
     <ignoreAction name="XML/Remove tag" />
     <ignoreAction name="Kotlin/Convert to with" />
+    <ignoreAction name="Kotlin Android/Add Parcelable Implementation" />
   </component>
 </application>
