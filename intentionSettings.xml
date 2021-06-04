@@ -6,5 +6,6 @@
     <ignoreAction name="Kotlin/Convert to with" />
     <ignoreAction name="Kotlin Android/Add Parcelable Implementation" />
     <ignoreAction name="Kotlin/Introduce import alias" />
+    <ignoreAction name="Kotlin/Replace with a 'forEach' function call" />
   </component>
 </application>
